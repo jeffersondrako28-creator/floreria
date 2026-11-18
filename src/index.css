@@ -5,9 +5,13 @@
   --font-display: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 
-  --color-brand: #e8559a;       /* cámbialo por el rosado exacto del logo */
-  --color-brand-dark: #c93a7e;
-  --color-brand-soft: #fde7f1;
+  --color-brand: #e8559a;       /* rosado principal: cámbialo por el del logo */
+  --color-brand-dark: #c93a7e;  /* rosado oscuro (hover y títulos) */
+  --color-brand-soft: #fde7f1;  /* rosado muy suave (fondos) */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
