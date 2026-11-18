@@ -1,9 +1,21 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Productos from "./components/Productos";
+import Contacto from "./components/Contacto";
+import Footer from "./components/Footer";
+import BotonWhatsApp from "./components/BotonWhatsApp";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold text-pink-500 p-8">
-      Florería Ashly y Julio
-    </h1>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <Productos />
+      <Contacto />
+      <Footer />
+      <BotonWhatsApp />
+    </>
+  );
 }
 
-export default App
+export default App;
