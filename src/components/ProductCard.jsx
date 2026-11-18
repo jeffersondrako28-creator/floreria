@@ -10,7 +10,7 @@ function ProductCard({ producto, onSelect }) {
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-6xl">
-            🌸
+            Ramo
           </div>
         )}
       </div>
